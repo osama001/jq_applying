@@ -1,0 +1,86 @@
+
+header{
+    background-image: url(../imges/concert-2527495_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+aside{
+    width: 20%;
+    display: flex;
+
+    justify-content: space-around;
+    align-items: start;
+}
+.fa-x {
+    top: 15px;
+    right:  15px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+li{
+    font-size: 25px;
+}
+i{
+    cursor: pointer;
+}
+a:hover{
+    color: brown;
+}
+i:hover{
+    color: brown;
+}
+.info{
+   
+    top: 50vh;
+    font-size: 2rem;
+}
+ul li p{
+    display: none;
+}
+section{
+    width: 75%;
+
+}
+
+section ul li{
+    font-size: 2rem;
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+    position: relative;
+  
+}
+section ul li p{
+
+    background-color: rgb(19, 3, 3);
+    color: white;
+    cursor: pointer;
+   
+}
+
+
+.date span{
+    border: 2px solid white;
+    padding: 15px;
+    height: 100px;
+    font-size: 30px;
+    width: fit-content;
+    text-align: center;
+}
+.square{
+    border: 1px solid #d1c6c6;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    margin: 5px;
+
+}
+.square:hover{
+    background-color: brown;
+}
+.square:hover i{
+    color:#d1c6c6
+}
